@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Coaster Quest: Home</title>
+        <link rel="stylesheet" href="coasterquest.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn everything you need to know to become a roller coaster enthusiast">
+        <meta name="author" content="Dallin Curtis">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Roboto+Condensed:ital@0;1&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <!-- Beginning of page header -->
+        <header>
+            <img src="images/cq_logo.png" alt="site logo" width="100" height="58">
+            <div>
+            <h1 id="tiptop">Coaster Quest</h1>
+                <p>Master the Thrills: Your ultimate guide to Coasters & Parks</p>
+            </div>
+        </header>
+        <!-- Beginning of page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cqhistory.html">History</a></li>
+                <li><a href="themeparkguides.html">Theme Park Guides</a></li>
+                <li class="active"><a href="thrilltips.html">Thrill-Seeker Tips</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Beginning of page content -->
+        <main>
+            <h1>Thrill-Seeker Tips</h1>
+
+                <p>Let's be honest, there is a BUNCH of things to learn about roller coasters and theme parks, way too much to fit on one page! So Instead of boring you to death with a HUGE list, we have a better solution!</p>
+                <p>Below we have a survey for you to fill out! You'll fill out information, such as your current knowlege of theme parks, as well as what you would specifically like to learn! With this information we will send you your own <strong>CUSTOM</strong> guide, giving you all the knowledge you want about theme parks and roller coasters! Please fill out the survey below to start!</p>
+        
+            
+        <h2 class="thrilltitle">Complete our Survey</h2>
+            <form method="get" class="survey" action="thanks.html">
+
+                <fieldset>
+                <legend>User Name</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Contact Preference</legend>
+                    <label>Cell Phone*<input type="tel" name="phone" required placeholder="801-578-2431"></label>
+                    <label>Email*<input type="email" name="email" required placeholder="coasterquest@gmail.com"></label>
+                    <p>Which contact method would you prefer?</p>
+                    <label><input type="radio" name="pref" value="phone">Cell Phone</label>
+                    <label><input type="radio" name="pref" value="email">Email</label>
+                    <label><input type="radio" name="pref" value="both">Both</label>
+                </fieldset>
+                    
+                <fieldset>
+                <legend>Coaster Knowledge</legend>
+                    <p>How much do you already know about thrill rides and theme parks?</p>
+                    <label><input type="radio" name="know" value="lots">I'm Basically A Pro</label>
+                    <label><input type="radio" name="know" value="some">I Know A Little Bit</label>
+                    <label><input type="radio" name="know" value="none">I Know Absolutely Nothing Please Help!</label>
+                    <label><input type="radio" name="know" value="no">Unsure</label>
+
+                    <p>How often do you go to theme parks</p>
+                    <label>
+                        <select name="frequency">
+                            <option value="none">Please Select</option>
+                            <option value="lots">All The Time</option>
+                            <option value="often">Quite Often</option>
+                            <option value="some">Sometimes</option>
+                            <option value="rare">Not That Much</option>
+                            <option value="never">I Haven't Been In Years</option>
+                        </select>
+                    </label>
+                </fieldset>
+            
+                <fieldset>
+                <legend>Interests</legend>
+                    <p>What would you like to learn about?</p>
+                        <label><input type="checkbox" name="interest" value="layout">Park Layout & Design</label>
+                        <label><input type="checkbox" name="interest" value="theme">Theming & Storytelling</label>
+                        <label><input type="checkbox" name="interest" value="queue">Queue Management</label>
+                        <label><input type="checkbox" name="interest" value="event">Event Planning</label>
+                        <label><input type="checkbox" name="interest" value="tech">Ride Technology</label>
+                        <label><input type="checkbox" name="interest" value="land">Architecture & Landscaping</label>
+                        <label><input type="checkbox" name="interest" value="food">Food & Beverage Trends</label>
+                        <label><input type="checkbox" name="interest" value="guest">Guest Experience</label>
+                        <label><input type="checkbox" name="interest" value="safe">Safety Regulations</label>
+                        <label><input type="checkbox" name="interest" value="fast">Fastpasses</label>
+                        <label><input type="checkbox" name="interest" value="other">Other (please specify below)</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Comments</legend>
+                    <label>
+                        <textarea name="comments"></textarea>
+                        Please add any additional comments or interests here!
+                    </label>
+                </fieldset>
+
+                <input type="submit" value="Submit Survey">
+
+            </form>
+
+            <p class="bottom"><a href ="thrilltips.html#tiptop" class="bottom">Back to top</a></p>
+
+        </main>
+        <!--Beginning of page footer -->
+        <footer>
+            <p>&copy; 2024 &bull; Dallin Curtis &bull; <a href="mailto:dallincurtis06@gmail.com">Email Us</a> &bull; <a href="tel:8016948075">Call Us</a></p>
+        </footer>
+    </body>
+</html>
